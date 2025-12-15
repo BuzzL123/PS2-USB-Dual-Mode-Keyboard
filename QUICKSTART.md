@@ -73,7 +73,7 @@ cd qmk_firmware
 cd keyboards
 mkdir -p bjl  # Create the bjl directory first
 cd bjl
-git clone https://github.com/BuzzL123/qmk-single-button-ps2-usb-dual-mode-keyboard-demo.git ps2demo
+git clone https://github.com/BuzzL123/QMK-PS2-USB-Dual-Mode-Keyboard.git ps2demo
 cd ../..
 
 # OR use sparse checkout to only get firmware files (method 2: clean)
@@ -81,7 +81,7 @@ cd keyboards
 mkdir -p bjl/ps2demo  # Create both directories
 cd bjl/ps2demo
 git init
-git remote add origin https://github.com/BuzzL123/qmk-single-button-ps2-usb-dual-mode-keyboard-demo.git
+git remote add origin https://github.com/BuzzL123/QMK-PS2-USB-Dual-Mode-Keyboard.git
 git config core.sparseCheckout true
 echo "*.c" >> .git/info/sparse-checkout
 echo "*.h" >> .git/info/sparse-checkout

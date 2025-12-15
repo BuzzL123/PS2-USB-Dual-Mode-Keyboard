@@ -90,7 +90,7 @@ A QMK-based keyboard firmware that supports both USB and PS/2 protocols on an RP
 cd ~/qmk_firmware/keyboards
 mkdir -p bjl  # Create the bjl directory first
 cd bjl
-git clone https://github.com/BuzzL123/qmk-single-button-ps2-usb-dual-mode-keyboard-demo.git ps2demo
+git clone https://github.com/BuzzL123/QMK-PS2-USB-Dual-Mode-Keyboard.git ps2demo
 ```
 
 Or if you want to keep your QMK directory clean, use **sparse checkout** to only get the keyboard files:
@@ -100,7 +100,7 @@ cd ~/qmk_firmware/keyboards
 mkdir -p bjl/ps2demo  # Create both directories
 cd bjl/ps2demo
 git init
-git remote add origin https://github.com/BuzzL123/qmk-single-button-ps2-usb-dual-mode-keyboard-demo.git
+git remote add origin https://github.com/BuzzL123/QMK-PS2-USB-Dual-Mode-Keyboard.git
 git config core.sparseCheckout true
 echo "*.c" >> .git/info/sparse-checkout
 echo "*.h" >> .git/info/sparse-checkout

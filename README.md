@@ -348,7 +348,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 ```
-See [QUICKSTART.md](SCANCODES.md) for detailed instructions.
+See [SCANCODES.md](SCANCODES.md) for detailed instructions.
 
 
 

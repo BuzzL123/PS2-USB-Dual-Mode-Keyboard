@@ -411,7 +411,7 @@ Most PS/2 projects implement **host** mode (reading from a PS/2 keyboard). This 
 
 **Practical use cases:**
 
-- **FPGA development** - Many dev boards (AgonLight2, Neo6502, etc.) have PS/2 ports
+- **FPGA/CPLD development** - Many dev boards (ALTERA DE1, spartan 3E, etc.) have PS/2 ports
 - **Retro computing and vintage hardware** - 486, Pentium, and early 2000s systems
 - **Embedded systems** that use PS/2 input
 - **Industrial equipment** with PS/2 interfaces
